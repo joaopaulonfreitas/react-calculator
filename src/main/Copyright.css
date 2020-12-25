@@ -1,0 +1,9 @@
+.copy{
+    padding: 10px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.copy img{border-radius: 50%; max-width: 50px; border: 4px solid #fff;}
+
+.copy .copy_text{text-align: left; padding-left: 15px; font-size: 0.85em;}

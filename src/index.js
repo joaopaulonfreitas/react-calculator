@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
+// Meus componentes
+import Calculator from './main/Calculator';
+import Copyright from './main/Copyright';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <Copyright author="João Paulo N. Freitas" site="joaopaulonfreitas.com"/>
+    <h1 className="title">Calculadora</h1>
+    <Calculator />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
